@@ -1,0 +1,68 @@
+.contained{
+    margin: 5px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    overflow: hidden;
+}
+
+.reverse{
+    flex-direction: row-reverse;
+}
+
+.inner{
+    height: 50%;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inner .graph-images{
+    height: inherit;
+    width: inherit;
+}
+
+.image{
+    height: 100%;
+    width: 100%;
+    padding: 8px;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin:35px 0;
+}
+
+.contained .text-container h3{
+    text-transform: capitalize;
+    font-size: 25px;
+    line-height: 2rem;
+}
+
+
+.Third{
+    background-color:  #06B3A81A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (max-width: 760px) {
+    .contained, .contained.reverse{
+        flex-direction: column;
+    }
+    .inner{
+        width: 270px;
+    }
+
+    .inner .graph-images{
+        padding: 0;
+    }
+    .specific{
+    flex-direction: column-reverse;
+}
+}

@@ -1,0 +1,270 @@
+.dot {
+  border-radius: 50%;
+  height: 9px;
+  width: 9px;
+  background-color: rgb(212, 201, 201);
+  cursor: pointer;
+}
+
+.switchScreens {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 10px;
+}
+
+.active {
+  width: 20px;
+  border-radius: 35%;
+  background-color: rgb(163, 161, 161);
+}
+
+.paymentOptions {
+  background-color: rgba(6, 179, 168, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  flex-direction: column;
+  padding: 25px;
+  margin-top: 20px;
+}
+
+.paymentOptions p {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.scrolling {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 100%;
+}
+
+.brands {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: inherit;
+  height: inherit;
+}
+
+.animationdiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.marc {
+  display: none;
+}
+
+.brandname {
+  background: linear-gradient(
+    180deg,
+    #febf3e 2.11%,
+    #febe3e 4.14%,
+    #f7a33f 52.77%,
+    #f39040 101.41%,
+    #f08541 152.08%,
+    #ef8141 204.77%
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  display: flex;
+
+}
+
+.brandEach {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 150px;
+}
+
+#ico{
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+}
+
+.brandEach .brandImg,
+.name {
+  height: 40px;
+  width: 120px;
+}
+
+.brandImgc {
+  width: 100px;
+  height: 20px;
+}
+
+.flex {
+  display: flex;
+  gap: 6px;
+}
+
+@media (max-width: 850px) {
+  .marc .animationdiv {
+    display: block;
+    animation-delay: 15.1s;
+  }
+
+  .brands {
+    position: absolute;
+    display: block;
+    margin: auto auto;
+    white-space: nowrap;
+    overflow: hidden;
+    min-width: 100%;
+    height: 100%;
+  }
+  .scrolling {
+    position: relative;
+    display: block;
+    width: 1500px;
+    height: 35px;
+    top: 17px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    bottom: 0;
+  }
+  .flex {
+    display: flex;
+    gap: 5px;
+  }
+  .animationdiv {
+    display: block;
+    padding-left: 100%;
+    font-family: "poppinsbold";
+    text-align: center;
+    white-space: nowrap;
+    min-width: 100%;
+    height: 100%;
+    line-height: 140px;
+    font-size: 85px;
+    animation: Brands 10s linear infinite;
+  }
+
+  @keyframes Brands {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(-100%, 0);
+    }
+  }
+
+  /* Main Footer Design-small-screen */
+.details .eachRow {
+  min-width: 50px;
+  width: 50%;
+}
+
+.otherdetails{
+  flex-direction: column;
+  width: 100%;
+}
+.social-media{
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+footer .details{
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap:0px;
+}
+
+}
+
+/* Main Footer Design */
+
+.Footer {
+  display: flex;
+  padding: 15px;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #001e18;
+}
+
+.details {
+  display: flex;
+  gap: 15px;
+}
+
+.eachRow {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  min-width: 200px;
+}
+
+.eachRow ul{
+  display: flex;
+  flex-direction: column;
+}
+
+.rowTitle p {
+  font-weight: 900;
+  padding: 15px 0;
+  font-size: 15px;
+  color: rgb(220, 215, 215);
+  align-self: flex-start;
+}
+
+.minilogo, .minilogo .logos{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 50px;
+color: white;
+gap: 5px;
+font-size: 23px;
+font-family: SF Pro Rounded;
+letter-spacing: 1px;
+}
+
+.social-media {
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.index,
+.copyright {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  line-height: 1.4rem;
+  text-transform: capitalize;
+  color: grey;
+  font-size: 13px;
+}
+
+.otherdetails {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: auto;
+  gap: 10px;
+}
+
+.index{
+  align-self: flex-start;
+}
+
+
+@media (min-width: 850px) {
+  .details {
+  justify-content: space-evenly;
+}
+}

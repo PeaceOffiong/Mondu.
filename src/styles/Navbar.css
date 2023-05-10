@@ -1,0 +1,207 @@
+.nav-header {
+  height: 90px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 25px;
+}
+
+.logo{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 5px;
+
+}
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "SF Pro Display";
+  margin-right: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.others {
+  width: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.others .options,
+.getiIn {
+  display: flex;
+}
+
+.options {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tooglebutton {
+  display: none;
+  cursor: pointer;
+  font-size: 25px;
+  margin-right: 25px;
+}
+
+.each {
+  width: 90px;
+  cursor: pointer;
+}
+
+.signUp {
+  background-color: #06b3a8;
+  height: 40px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 110px;
+  color: white;
+  font-size: 14px;
+  border-radius: 18px;
+}
+
+button {
+  height: 60px;
+  background-color: white;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 800px) {
+  .others .options,
+  .getiIn {
+    display: block;
+  }
+  .others {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+    height: 100%;
+    background-color: white;
+    gap: 0;
+    justify-content: center;
+  }
+
+  nav {
+    margin-right: 10px;
+  }
+
+  .options,
+  .getiIn {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  .tooglebutton {
+    display: block;
+    z-index: 1;
+  }
+  .each {
+    font-size: 14px;
+  }
+  .show {
+    display: flex;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .nav-header {
+    box-shadow: 0px 11px 4px -10px rgba(203, 209, 209, 0.75);
+  }
+
+  /*signup section*/
+  .sign{
+  flex-direction: column;
+}
+
+ .sign .signUpLabel{
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  width: 100%;
+  border: 5px;
+}
+
+.signUpLabel .submit2, .signUpLabel .email2{
+  border-radius: 5px;
+  width: 100%;
+}
+.sec1{
+  width: 100%;
+}
+}
+
+/*signup section*/
+
+
+.sign{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  background-color: #06B3A8;
+  color: white;
+}
+
+.sign h3{
+  line-height: 2rem;
+  font-size: 25px;
+  padding: 10px;
+  max-width: 520px;
+  font-family: 'SF Pro Display';
+}
+
+.sign p{
+  padding: 10px;
+  max-width: 470px ;
+}
+
+.submit2{
+  border-top-right-radius: 5px;
+ border-bottom-right-radius: 5px;
+ width: 39%;
+ background: #359EB4;
+color: white;
+padding: 10px;
+}
+
+.submit2, .email2{
+  height: 35px;
+ border:none;
+}
+
+.signUpLabel{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
+
+.email2{
+  border-top-left-radius: 5px;
+ border-bottom-left-radius: 5px;
+ width: 80%;
+}
+
+.sec1{
+  width: 100%;
+}
