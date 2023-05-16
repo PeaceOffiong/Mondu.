@@ -1,3 +1,5 @@
+import { ReactSVG } from "react-svg";
+
 const ImgSection = ({ Img, Title, Text }) => {
   return (
     <>
@@ -7,7 +9,7 @@ const ImgSection = ({ Img, Title, Text }) => {
         </aside>
         <aside className="inner">
           <div className="graph-images">
-            <Img />
+          <ReactSVG src={ Img} />
           </div>
         </aside>
     </>
