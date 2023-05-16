@@ -5,6 +5,11 @@ import { ReactSVG } from "react-svg";
 const Home = () => {
   const { index, touchStart, touchEnd, touchMove } = useGlobalContext();
 
+  const originalSentence = data[index].header.split(" ");
+  const firstWord = originalSentence[0];
+  const remainingText = originalSentence.slice(1).join(" ");
+  
+
   return (
     <aside
       className="home"
@@ -14,7 +19,7 @@ const Home = () => {
     >
       <div className="text-container">
         <p className="offers">Mondu's offering</p>
-        <h1 className="header">{data[index].header}</h1>
+        <h1 className="header">{ firstWord} <span style={{ color: "black" }}>{remainingText}</span></h1>
 
         <p className="desc">{data[index].p}</p>
         <h3 className="count">{data[index].count}</h3>

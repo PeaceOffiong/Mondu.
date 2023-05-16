@@ -4,10 +4,10 @@ import "./styles/footer.css";
 import "./styles/globals.css";
 import "./styles/footer.css";
 import "./styles/home.css";
-import "./styles/mainFooter.css";
 import './styles/Navbar.css';
 import "./styles/article.css"
 import "./styles/feature.css";
+import "./styles/contacts.css";
 import App from './App';
 import { BrowserRouter } from "react-router-dom";
 import { AppProvider } from "./context/context";

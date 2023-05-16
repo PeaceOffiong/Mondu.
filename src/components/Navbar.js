@@ -3,6 +3,7 @@ import { AiOutlineMenu } from "react-icons/ai";
 import { useGlobalContext } from "../context/context";
 import { ReactComponent as Logo1 } from "../public/Vector.svg";
 import { ReactComponent as Logo2 } from "../public/Mondu.svg";
+import { Link } from "react-router-dom";
 
 
 const Navbar = () => {
@@ -10,10 +11,12 @@ const Navbar = () => {
   return (
     <aside className="nav-header">
       <nav>
-        <div className="logo">
-          <Logo1/>
-          <Logo2/>
-        </div>
+        <Link to="/">
+          <div className="logo">
+            <Logo1 />
+            <Logo2 />
+          </div>
+        </Link>
         <div className={`others ${isToggled ? "show" : "hide"}`}>
           <div className="options">
             <button>
@@ -23,17 +26,17 @@ const Navbar = () => {
             </button>
             <button>
               <div className="each" onClick={() => setIsToggled(false)}>
-                Why Mondu
+                <Link to="/About">Why Mondu</Link>
               </div>
             </button>
             <button>
               <div className="each" onClick={() => setIsToggled(false)}>
-                Resources
+                <Link to="/Document">Resources</Link>
               </div>
             </button>
             <button>
               <div className="each" onClick={() => setIsToggled(false)}>
-                Contact us
+                <Link to="/ContactUs"> Contact us</Link>
               </div>
             </button>
           </div>

@@ -61,8 +61,13 @@ ul{
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
-    padding: 15px;
+    padding: 20px;
     gap: 20px;
+}
+
+.uls{
+    padding: 20px 70px;
+    gap: 50px;
 }
 
 #forth{
@@ -110,6 +115,10 @@ ul{
 }
 .features{
     padding: 5px;
+}
+.uls{
+    padding: 20px;
+    gap: 20px;
 }
 
 }

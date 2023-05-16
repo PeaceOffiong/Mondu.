@@ -15,11 +15,81 @@ section{
   height: auto;
 }
 
+#forth{
+  height: auto;
+  padding: 50px 0;
+}
+
 
 @media (max-width: 850px) {
   section{
     height: auto;
   }
+
+  /* About Page  Small Screen*/
+  .abtcards{
+ flex-direction: column;
+}
+
+article .abtp{
+  padding: 15px;
+}
 }
 
 
+.header.two{
+  color: black;
+  margin: 27px 0;
+  text-align:center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 100%;
+}
+
+.abtp{
+  padding: 22px 60px;
+  text-align:center;
+}
+
+.btn-container{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  gap: 7px;
+  padding: 10px;
+}
+
+.abtbtn{
+  width: 150px;
+  height: 43px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #359EB4;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+.abtbtn{
+  color:#359EB4;
+}
+
+.abtbtn.green{
+  background: #359EB4;
+  color: white;
+}
+
+.cards.sets.abt{
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+}
+
+.cards.sets.abt b{
+  font-size: 30px;
+  letter-spacing: 1px;
+}

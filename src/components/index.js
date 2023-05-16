@@ -6,4 +6,7 @@ export { default as  HomeComponent} from "./Home.js";
 export { default as Mainfooter } from "./Mainfooter.js";
 export { default as Navbar } from "./Navbar.js";
 export { default as SignUp } from "./SignUp.js";
-export {default as WhyMondu} from "./whyMondu.js"
+export { default as WhyMondu } from "./whyMondu.js";
+export { default as AnimationBrands } from "./AnimationBrands.js";
+export { default as ImgSection } from "./ImgSection.js";
+export { default as ValueBox } from "./ValueBox.js";

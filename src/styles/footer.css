@@ -22,19 +22,18 @@
 }
 
 .paymentOptions {
-  background-color: rgba(6, 179, 168, 0.1);
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 15px;
   flex-direction: column;
-  padding: 25px;
-  margin-top: 20px;
+  padding: 20px 0px;
 }
 
-.paymentOptions p {
+.full p {
   font-weight: 700;
   font-size: 14px;
+  padding: 10px;
 }
 
 .scrolling {
@@ -49,15 +48,14 @@
 .brands {
   display: flex;
   align-items: center;
-  justify-content: center;
-  width: inherit;
+  width: 100%;
   height: inherit;
 }
 
 .animationdiv {
   display: flex;
   align-items: center;
-  justify-content: center;
+  width: 100%;
 }
 
 .marc {
@@ -77,7 +75,8 @@
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   display: flex;
-
+  font-size: 19px;
+  width:300px;
 }
 
 .brandEach {
@@ -88,9 +87,9 @@
   width: 150px;
 }
 
-#ico{
-  width: 50px;
-  height: 50px;
+#ico {
+  width: 70px;
+  height: 70px;
   padding: 5px;
 }
 
@@ -107,14 +106,32 @@
 
 .flex {
   display: flex;
+
+}
+
+.full {
+  background-color: rgba(6, 179, 168, 0.1);
+  text-align: center;
+}
+
+@media (min-width: 850px) {
+.flex {
+  justify-content: space-evenly;
+  width: 100%;
   gap: 6px;
 }
+}
+
 
 @media (max-width: 850px) {
   .marc .animationdiv {
     display: block;
     animation-delay: 15.1s;
   }
+  .paymentOptions {
+ 
+  padding: 25px;
+}
 
   .brands {
     position: absolute;
@@ -163,26 +180,25 @@
   }
 
   /* Main Footer Design-small-screen */
-.details .eachRow {
-  min-width: 50px;
-  width: 50%;
-}
+  .details .eachRow {
+    min-width: 50px;
+    width: 50%;
+  }
 
-.otherdetails{
-  flex-direction: column;
-  width: 100%;
-}
-.social-media{
-  width: 100%;
-  justify-content: space-evenly;
-}
+  .otherdetails {
+    flex-direction: column;
+    width: 100%;
+  }
+  .social-media {
+    width: 100%;
+    justify-content: space-evenly;
+  }
 
-footer .details{
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap:0px;
-}
-
+  footer .details {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0px;
+  }
 }
 
 /* Main Footer Design */
@@ -207,7 +223,7 @@ footer .details{
   min-width: 200px;
 }
 
-.eachRow ul{
+.eachRow ul {
   display: flex;
   flex-direction: column;
 }
@@ -220,16 +236,17 @@ footer .details{
   align-self: flex-start;
 }
 
-.minilogo, .minilogo .logos{
-display: flex;
-align-items: center;
-justify-content: center;
-height: 50px;
-color: white;
-gap: 5px;
-font-size: 23px;
-font-family: SF Pro Rounded;
-letter-spacing: 1px;
+.minilogo,
+.minilogo .logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  color: white;
+  gap: 5px;
+  font-size: 23px;
+  font-family: SF Pro Rounded;
+  letter-spacing: 1px;
 }
 
 .social-media {
@@ -258,13 +275,12 @@ letter-spacing: 1px;
   gap: 10px;
 }
 
-.index{
+.index {
   align-self: flex-start;
 }
 
-
 @media (min-width: 850px) {
   .details {
-  justify-content: space-evenly;
-}
+    justify-content: space-evenly;
+  }
 }

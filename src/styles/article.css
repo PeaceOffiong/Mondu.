@@ -1,68 +1,73 @@
-.contained{
-    margin: 5px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 35px;
-    overflow: hidden;
+.contained {
+  margin: 5px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+  overflow: hidden;
 }
 
-.reverse{
-    flex-direction: row-reverse;
+.reverse {
+  flex-direction: row-reverse;
 }
 
-.inner{
-    height: 50%;
-    width: 450px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.inner .graph-images{
-    height: inherit;
-    width: inherit;
+.inner {
+  height: 50%;
+  width: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.image{
-    height: 100%;
-    width: 100%;
-    padding: 8px;
+.inner .graph-images {
+  height: inherit;
+  width: inherit;
 }
 
-.center{
-    display: flex;
-    flex-direction: column;
-    gap: 35px;
-    margin:35px 0;
+.image {
+  height: 100%;
+  width: 100%;
+  padding: 8px;
 }
 
-.contained .text-container h3{
-    text-transform: capitalize;
-    font-size: 25px;
-    line-height: 2rem;
+.center {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  margin: 35px 0;
+  padding: 0px 20px;
 }
 
-
-.Third{
-    background-color:  #06B3A81A;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.contained .text-container h3 {
+  text-transform: capitalize;
+  font-size: 25px;
+  line-height: 2rem;
 }
 
+.Third {
+  background-color: #06b3a81a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 @media (max-width: 760px) {
-    .contained, .contained.reverse{
-        flex-direction: column;
-    }
-    .inner{
-        width: 270px;
-    }
+  .contained,
+  .contained.reverse {
+    flex-direction: column;
+  }
+  .inner {
+    width: 270px;
+  }
 
-    .inner .graph-images{
-        padding: 0;
-    }
-    .specific{
+  .inner .graph-images {
+    padding: 0;
+  }
+  .specific {
     flex-direction: column-reverse;
-}
+  }
+
+  .center {
+    padding: 0px 0px;
+  }
 }

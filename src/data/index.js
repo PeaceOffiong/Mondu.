@@ -1,7 +1,7 @@
 const data = [
   {
     id: 1,
-    header: "Seamless Global Transactions for SMBs, Startups, and Scale-ups",
+    header: `Seamless Global Transactions for SMBs, Startups, and Scale-ups`,
     p: "Efficiently collect payments, send payouts, and manage your global treasury, all while saving on foreign exchange transactions. As a regulated financial services enterprise, we are leading the way in providing instant cross-border payment solutions.",
     count: "3000+",
     small: "Total client served",
@@ -27,7 +27,7 @@ const data = [
 
 export default data;
 
- export const footerData = [
+export const footerData = [
   {
     id: 1,
     title: "Products",
@@ -57,5 +57,23 @@ export default data;
     id: 4,
     title: "Company",
     otherInfo: ["FAQ", "Privacy Policy"],
-  }
+  },
+];
+
+export const docsData = [
+  {
+    id: 1,
+    Header:"Connect Platforms",
+    Topics: ["Introduction", "Installation", "Get started", "Server settings"],
+  },
+  {
+    id: 2,
+    Header: "Web Hooks", 
+    Topics: ["Data Loading", "Data Loading", "Data Loading", "Data Loading"],
+  },
+  {
+    id: 2,
+    Header:"API Libraries",
+    Topics: ["Data Loading", "Data Loading", "Data Loading", "Data Loading"],
+  },
 ];
