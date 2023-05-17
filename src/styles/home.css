@@ -122,6 +122,10 @@
   .home {
     display: block;
   }
+  .graph-images svg #imgs {
+    height: 100%;
+    width: 100%;
+  }
 
   .text-container,
   .graph-images {
