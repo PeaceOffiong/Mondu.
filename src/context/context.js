@@ -46,7 +46,7 @@ const AppProvider = ({ children }) => {
   }
 
   useEffect(() => {
-    const interval = setInterval(switchPages, 3000);
+    const interval = setInterval(switchPages, 2500);
     return () => clearInterval(interval);
   }, [index])
 
