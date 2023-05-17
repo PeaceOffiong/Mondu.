@@ -2,6 +2,7 @@ import Home from "./pages/index";
 import About from "./pages/About";
 import Document from "./pages/Documentation";
 import ContactUs from "./pages/ContactUs";
+import { Helmet } from "react-helmet-async";
 
 import { Routes, Route } from "react-router-dom";
 function App() {

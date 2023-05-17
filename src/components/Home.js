@@ -19,7 +19,9 @@ const Home = () => {
     >
       <div className="text-container">
         <p className="offers">Mondu's offering</p>
-        <h1 className="header">{ firstWord} <span style={{ color: "black" }}>{remainingText}</span></h1>
+        <h1 className="header">
+          {firstWord} <span style={{ color: "black" }}>{remainingText}</span>
+        </h1>
 
         <p className="desc">{data[index].p}</p>
         <h3 className="count">{data[index].count}</h3>
@@ -36,7 +38,9 @@ const Home = () => {
       </div>
 
       <div className="graph-images">
-        <ReactSVG src={data[index].img} id="imgs" />
+        <svg width="100" height="100">
+          <image href={data[index].img} width="300" height="300" id="imgs" />
+        </svg>
       </div>
     </aside>
   );

@@ -14,13 +14,16 @@
   gap: 15px;
 }
 
-#imgs div{
+#imgs {
  display: flex;
   align-items: center;
   justify-content: center;
+   height: 100%;
+  width: 100%;
+  padding: 10px;
 }
 
-#imgs div svg{
+#imgs svg{
   height: 73%;
   width: 73%;
   padding: 10px;
