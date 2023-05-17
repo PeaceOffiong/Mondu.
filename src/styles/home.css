@@ -14,7 +14,12 @@
   gap: 20px;
 }
 
-.graph-images svg #imgs {
+ .graph-images svg #imgs{
+  height: inherit;
+  width: inherit;
+}
+
+/* .graph-images svg #imgs {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -25,7 +30,7 @@
 .graph-images svg{
   height: inherit;
   width: inherit;
-}
+} */
 
 .header {
   font-size: 32px;
@@ -118,19 +123,21 @@
   width: 100%;
 }
 
+
+
 @media (max-width: 850px) {
   .home {
     display: block;
   }
-  .graph-images svg #imgs {
+  /* .graph-images svg #imgs {
     height: inherit;
     width: inherit;
-  }
+  } */
 
   .text-container,
   .graph-images {
     width: 100%;
-    height: auto;
+    /* height: auto; */
   }
   .graph-images {
     padding: 15px;
