@@ -37,8 +37,8 @@ const Home = () => {
       </div>
 
       <div className="graph-images">
-        <svg width="250" height="250">
-          <image href={data[index].img} width="250" height="250" id="imgs" />
+        <svg width="300" height="300">
+          <image href={data[index].img} width="300" height="300" id="imgs" />
         </svg>
       </div>
     </aside>
