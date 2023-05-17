@@ -1,6 +1,5 @@
 import data from "../data/index";
 import { useGlobalContext } from "../context/context";
-import { ReactSVG } from "react-svg";
 
 const Home = () => {
   const { index, touchStart, touchEnd, touchMove } = useGlobalContext();
@@ -38,8 +37,8 @@ const Home = () => {
       </div>
 
       <div className="graph-images">
-        <svg width="100" height="100">
-          <image href={data[index].img} width="100" height="100" id="imgs" />
+        <svg width="100%" height="100%">
+          <image href={data[index].img} width="100%" height="100%" id="imgs" />
         </svg>
       </div>
     </aside>

@@ -115,6 +115,7 @@
 .graph-images svg{
   height: 100%;
   width: 100%;
+  padding: 12px;
 }
 
 .specificImg {
@@ -123,7 +124,7 @@
 }
 
 @media (max-width: 400px){
-  .graph-images {
+  .home .graph-images {
     height: 400px;
   }
 }
@@ -131,18 +132,12 @@
 
 @media (max-width: 850px) {
   .home {
-    display: block;
-   
+    display: block; 
   }
-  /* .graph-images svg #imgs {
-    height: inherit;
-    width: inherit;
-  } */
 
   .text-container,
   .graph-images {
     width: 100%;
-    /* height: auto; */
   }
   .graph-images {
     padding: 15px;
