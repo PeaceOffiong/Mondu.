@@ -22,6 +22,11 @@
   width: inherit;
 }
 
+.graph-images svg{
+  height: inherit;
+  width: inherit;
+}
+
 .header {
   font-size: 32px;
   color: #06b3a8;
@@ -116,10 +121,6 @@
 @media (max-width: 850px) {
   .home {
     display: block;
-  }
-  .graph-images svg #imgs {
-    height: 300px;
-    width: 300px;
   }
 
   .text-container,
