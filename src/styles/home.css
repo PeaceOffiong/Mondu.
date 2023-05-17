@@ -123,6 +123,11 @@
   width: 100%;
 }
 
+@media (max-width: 400px){
+  .home .graph-images {
+    height: 400px;
+  }
+}
 
 
 @media (max-width: 850px) {
