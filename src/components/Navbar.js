@@ -21,7 +21,7 @@ const Navbar = () => {
           <div className="options">
             <button>
               <div className="each" onClick={() => setIsToggled(false)}>
-                Demo
+                <Link to="/">Home</Link>
               </div>
             </button>
             <button>
@@ -31,7 +31,7 @@ const Navbar = () => {
             </button>
             <button>
               <div className="each" onClick={() => setIsToggled(false)}>
-                <Link to="/Document">Resources</Link>
+                <Link to="/Documentation">Resources</Link>
               </div>
             </button>
             <button>

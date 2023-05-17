@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useState, useEffect } from "react";
 import data from "../data/index";
 
 const AppContext = React.createContext();
@@ -37,6 +37,19 @@ const AppProvider = ({ children }) => {
     }
   };
 
+  const switchPages = () => {
+    if (index >= data.length - 1) {
+      setIndex(0);
+    } else {
+      setIndex(index + 1);
+    }
+  }
+
+  useEffect(() => {
+    const interval = setInterval(switchPages, 3000);
+    return () => clearInterval(interval);
+  }, [index])
+
   const touchMove = (e) => setTouchEnd(e.targetTouches[0].clientX);
 
   const HandleContactSubmit = (e) => {
@@ -44,9 +57,18 @@ const AppProvider = ({ children }) => {
     alert("Submitted, Thanks For your Feedback");
   };
 
-  const HandleTab = (indx) => {
-    setDocsIndex(indx);
-  
+  const HandleTab = ( e) => {
+    const target = e.target.parentElement.parentElement.nextElementSibling; 
+    const symbol = e.target;
+
+    if (target.classList.contains("Hidden")) {
+      target.classList.remove("Hidden");
+      symbol.innerText = "<"
+    } else {
+      target.classList.add("Hidden");
+      symbol.innerHTML = `${`&#8964;
+    `} `;
+    }
   };
 
   return (

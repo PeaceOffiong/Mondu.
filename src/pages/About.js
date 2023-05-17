@@ -5,7 +5,6 @@ import {
   Navbar,
   AnimationBrands,
 } from "../components";
-import { ReactComponent as Image } from "../public/fx.svg (1).svg";
 import { ValueBox } from "../components";
 import { ReactComponent as One } from "../public/Icon_12_.svg.svg";
 import { ReactComponent as Two } from "../public/Icon_11_.svg.svg";
@@ -68,7 +67,7 @@ const About = () => {
             <ImgSection
               Title="How Mondu Came To be"
               Text="Say Goodbye to Late Payments and Long Processing Times - Our Streamlined Payment System Makes Getting Paid Faster and Easier Than Ever Before"
-              Img={Image}
+              Img="/fx.svg (1).svg"
             />
           </div>
         </article>
@@ -116,7 +115,7 @@ const About = () => {
 
         <div className="why">
           <h2>Our Investors</h2>
-          <ul >
+          <ul>
             <ReactSVG src="/Logo card.svg" />
             <ReactSVG src="/Logo card (1).svg" />
             <ReactSVG src="/Logo card (2).svg" />

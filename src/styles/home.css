@@ -14,14 +14,20 @@
   gap: 15px;
 }
 
-#imgs svg{
-  height: 80%;
-  width: 80%;
+#imgs div{
+ display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#imgs div svg{
+  height: 73%;
+  width: 73%;
   padding: 10px;
 }
 
 .header {
-  font-size: 41px;
+  font-size: 32px;
   color: #06b3a8;
   max-width: 450px;
 }
@@ -114,10 +120,12 @@ width: 100%;
   .home {
     display: block;
   }
-  #imgs svg{
-    width: 350px;
-    height: 330px;
-  }
+  
+#imgs div svg{
+  height: 90%;
+  width: 90%;
+  padding: 0px;
+}
   .text-container,
   .graph-images {
     width: 100%;

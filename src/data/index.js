@@ -63,17 +63,68 @@ export const footerData = [
 export const docsData = [
   {
     id: 1,
-    Header:"Connect Platforms",
-    Topics: ["Introduction", "Installation", "Get started", "Server settings"],
+    Header: "Connect Platforms",
+    Topics: [
+      {
+        Header: "Introduction",
+        Text: "Mondu is a payment gateway that enables businesses to accept payments from customers through various payment channels, including debit/credit cards, bank transfers, and mobile wallets.",
+      },
+      {
+        Header: "Installation",
+        Text: "Connect platforms are platforms that facilitate payments between two or more parties, such as marketplaces, crowdfunding platforms, or peer-to-peer lending platforms.",
+      },
+      {
+        Header: "Get Started",
+        Text: "You can integrate Mondu with your connect platform by using our APIs and SDKs. We offer APIs for various programming languages, including PHP, Java, and Python, as well as SDKs for mobile platforms such as iOS and Android. Please refer to our developer documentation for more information on how to integrate Mondu with your connect platform.",
+      },
+      {
+        Header: "Server settings",
+        Text: "To get started with Mondu integration, you need to create an account with us and obtain your API keys. Once you have your API keys, you can start integrating Mondu with your connect platform using our APIs and SDKs. Please refer to our developer documentation for detailed instructions on how to integrate Mondu with your connect platform.",
+      },
+    ],
   },
   {
     id: 2,
-    Header: "Web Hooks", 
-    Topics: ["Data Loading", "Data Loading", "Data Loading", "Data Loading"],
+    Header: "Web Hooks",
+    Topics: [
+      {
+        Header: "Data Loading",
+        Text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, dolore obcaecati maxime eum blanditiis debitis impedit incidunt quia tenetur autem repellendus nesciunt! Consequatur temporibus reprehenderit maxime tempora placeat quis officiis.",
+      },
+      {
+        Header: "Data Loading",
+        Text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, dolore obcaecati maxime eum blanditiis debitis impedit incidunt quia tenetur autem repellendus nesciunt! Consequatur temporibus reprehenderit maxime tempora placeat quis officiis.",
+      },
+      {
+        Header: "Data Loading",
+        Text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, dolore obcaecati maxime eum blanditiis debitis impedit incidunt quia tenetur autem repellendus nesciunt! Consequatur temporibus reprehenderit maxime tempora placeat quis officiis.",
+      },
+      {
+        Header: "Data Loading",
+        Text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, dolore obcaecati maxime eum blanditiis debitis impedit incidunt quia tenetur autem repellendus nesciunt! Consequatur temporibus reprehenderit maxime tempora placeat quis officiis.",
+      },
+    ],
   },
   {
     id: 2,
-    Header:"API Libraries",
-    Topics: ["Data Loading", "Data Loading", "Data Loading", "Data Loading"],
+    Header: "API Libraries",
+    Topics: [
+      {
+        Header: "Data Loading",
+        Text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, dolore obcaecati maxime eum blanditiis debitis impedit incidunt quia tenetur autem repellendus nesciunt! Consequatur temporibus reprehenderit maxime tempora placeat quis officiis.",
+      },
+      {
+        Header: "Data Loading",
+        Text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, dolore obcaecati maxime eum blanditiis debitis impedit incidunt quia tenetur autem repellendus nesciunt! Consequatur temporibus reprehenderit maxime tempora placeat quis officiis.",
+      },
+      {
+        Header: "Data Loading",
+        Text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, dolore obcaecati maxime eum blanditiis debitis impedit incidunt quia tenetur autem repellendus nesciunt! Consequatur temporibus reprehenderit maxime tempora placeat quis officiis.",
+      },
+      {
+        Header: "Data Loading",
+        Text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, dolore obcaecati maxime eum blanditiis debitis impedit incidunt quia tenetur autem repellendus nesciunt! Consequatur temporibus reprehenderit maxime tempora placeat quis officiis.",
+      },
+    ],
   },
 ];

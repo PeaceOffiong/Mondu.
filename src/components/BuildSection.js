@@ -1,5 +1,6 @@
 import React from 'react';
 import { ReactComponent as Buildimg } from "../public/Group 427319215.svg";
+import {Link} from "react-router-dom"
 
 const BuildSection = () => {
   return (
@@ -9,11 +10,13 @@ const BuildSection = () => {
         <p className="desc">
           Build custom payments experiences with well-documented APIs
         </p>
-        <button id="submit">Explore the Docs &#8594;</button>
-          </div>
-          <div>
-              <Buildimg className="specificImg"/>
-          </div>
+        <Link to="/Documentation">
+          <button id="submit">Explore the Docs &#8594;</button>
+        </Link>
+      </div>
+      <div>
+        <Buildimg className="specificImg" />
+      </div>
     </aside>
   );
 }

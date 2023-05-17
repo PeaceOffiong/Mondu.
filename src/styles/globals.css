@@ -1,93 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Playfair+Display:ital,wght@0,600;1,400&family=Poppins:wght@300&display=swap");
 
-  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Playfair+Display:ital,wght@0,600;1,400&family=Poppins:wght@300&display=swap');
-
-*{
-  padding:0;
+* {
+  padding: 0;
   margin: 0;
   box-sizing: border-box;
   text-decoration: none;
-  list-style: none; 
-  font-family: 'Dancing Script', cursive;
-font-family: 'Playfair Display', serif;
-font-family: 'Poppins', sans-serif;
+  list-style: none;
+  font-family: "Dancing Script", cursive;
+  font-family: "Playfair Display", serif;
+  font-family: "Poppins", sans-serif;
 }
 
-section{
+a{
+  color: black;
+}
+
+
+section {
   height: 100vh;
   position: relative;
 }
 
-.second{
+.second {
   height: auto;
 }
 
-#forth{
+#forth {
   height: auto;
   padding: 50px 0;
 }
 
-
 @media (max-width: 850px) {
-  section{
+  section {
     height: auto;
   }
 
   /* About Page  Small Screen*/
-  .abtcards{
- flex-direction: column;
+  .abtcards {
+    flex-direction: column;
+  }
+
+  article .abtp {
+    padding: 15px;
+  }
 }
 
-article .abtp{
-  padding: 15px;
-}
-}
-
-
-.header.two{
+.header.two {
   color: black;
   margin: 27px 0;
-  text-align:center;
+  text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
   min-width: 100%;
 }
 
-.abtp{
+.abtp {
   padding: 22px 60px;
-  text-align:center;
+  text-align: center;
 }
 
-.btn-container{
+.btn-container {
   display: flex;
   align-items: center;
-  justify-content:center;
+  justify-content: center;
   gap: 7px;
   padding: 10px;
 }
 
-.abtbtn{
+.abtbtn {
   width: 150px;
   height: 43px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #359EB4;
+  border: 1px solid #359eb4;
   border-radius: 10px;
   cursor: pointer;
 }
 
-
-.abtbtn{
-  color:#359EB4;
+.abtbtn {
+  color: #359eb4;
 }
 
-.abtbtn.green{
-  background: #359EB4;
+.abtbtn.green {
+  background: #359eb4;
   color: white;
 }
 
-.cards.sets.abt{
+.cards.sets.abt {
   height: auto;
   display: flex;
   align-items: center;
@@ -95,7 +96,7 @@ article .abtp{
   width: 200px;
 }
 
-.cards.sets.abt b{
+.cards.sets.abt b {
   font-size: 30px;
   letter-spacing: 1px;
 }

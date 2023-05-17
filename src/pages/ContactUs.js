@@ -53,7 +53,9 @@ const ContactUs = () => {
                 <label htmlFor="ContactMethod">
                   <b>Contact Method</b>
                 </label>
-                <select value="Dropdown" placeholder="Dropdown"></select>
+                <select value="Dropdown" placeholder="Dropdown">
+                  <option value="Dropdown">Dropdown</option>
+                </select>
               </div>
 
               <div className="Message">

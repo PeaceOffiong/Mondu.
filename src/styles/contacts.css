@@ -3,7 +3,7 @@
   width: 90%;
   justify-content: center;
   gap: 30px;
-  margin:10px 0px;
+  margin: 10px 0px;
   margin-bottom: 55px;
 }
 form {
@@ -30,18 +30,20 @@ select {
   color: grey;
   border: 0.5px solid grey;
   cursor: pointer;
+  border-radius: 0px;
 }
 
-label b, .spec b{
+label b,
+.spec b {
   color: #272d37;
 }
 
-.spec b{
+.spec b {
   font-size: 19px;
   text-transform: capitalize;
 }
 
-.spec{
+.spec {
   padding-bottom: 15px;
 }
 
@@ -51,7 +53,7 @@ label b, .spec b{
   cursor: pointer;
 }
 
- form input[type="submit"] {
+form input[type="submit"] {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -98,12 +100,12 @@ label b, .spec b{
   gap: 5px;
 }
 
-.link{
-  color:  #06b3a8;
+.link {
+  color: #06b3a8;
   cursor: pointer;
 }
 
-.socials{
+.socials {
   display: flex;
   gap: 5px;
   padding: 10px, 0px;
@@ -115,7 +117,7 @@ form div {
   flex-direction: column;
 }
 
-.address-details{
+.address-details {
   height: inherit;
 }
 
@@ -138,26 +140,30 @@ form div {
   form input[type="submit"] {
     width: 100%;
   }
+  article .Tab.Section,
+  article .resource-topics {
+    margin: 15px;
+  }
 }
 
 /* Docs Styling */
 
-.Tab.Section{
+.Tab.Section {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   height: 40px;
-  margin: 10px;
+  margin: 50px;
   gap: 8px;
 }
 
 .Tab.Section a {
   display: flex;
   width: 100%;
- }
+}
 
-.Tab.Section button{
-  padding :10px;
+.Tab.Section button {
+  padding: 10px;
   display: flex;
   border-radius: 30px;
   height: 50px;
@@ -166,29 +172,41 @@ form div {
   background: rgba(6, 179, 168, 0.05);
 }
 
-
-.Tab.Section .activeTab{
+.Tab.Section .activeTab {
   background-color: #06b3a8;
   color: white;
 }
 
-.resource-topics{
-  margin: 20px;
-display: flex;
-flex-direction: column;
+.resource-topics {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
 }
 
-.topics{
+.topics {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  border: 1px solid rgb(200, 200, 200);
+  padding: 10px;
+  /* align-items: center;
+  width: 100%;
+   */
+}
+
+.eachTopic {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: 1px solid rgb(200, 200, 200);
-  height: 50px;
-  width: 100%;
-  padding: 10px;
-  text-align: center;
+  padding: 30px 5px;
 }
 
-.symbol{
+.symbol {
   cursor: pointer;
+  padding-right: 10px;
+  font-size: 20px;
+}
+
+.Hidden{
+  display: none;
 }
