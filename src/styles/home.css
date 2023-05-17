@@ -14,7 +14,7 @@
   gap: 15px;
 }
 
-#imgs {
+.graph-images svg #imgs {
  display: flex;
   align-items: center;
   justify-content: center;
