@@ -123,8 +123,8 @@
     display: block;
   }
   .graph-images svg #imgs {
-    height: 100%;
-    width: 100%;
+    height: inherit;
+    width: inherit;
   }
 
   .text-container,
